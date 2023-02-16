@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alia's Guide to London Parks</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" type="text/css" href="ParkWebsite.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Media</title>
+  </head>
+  <body>
+    <header>
+      <h1><u>Parks of LDN</u></h1>
+    </header>
+
+    <section id="photos">
+      <img src="Regents P1.jpeg" alt="Regents Park">
+      <img src="Regents P2.jpeg" alt="Regents Park">
+      <img src="Regents Canal1.jpeg" alt="Landscape pic of Regents Canal">
+      <!-- Add more photos here -->
+    </section>
+    <br>
+    
+    <audio id="myMusic">
+      <source src="./We Cruisin' - Otis McDonald.mp3" />
+    </audio>
+    <button id="btnPlay">Play</button>
+    <button id="btnPause">Pause</button>
+    <input type="range" id="rngVolume" min="0" max="1" step=".01" value=".5" />
+    <script src="./Parks.js"></script>
+  </body>
+</html>

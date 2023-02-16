@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #fffd78, #ff1b1b);
+}
+
+header h1 {
+  text-align: center;
+  color: indigo;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(255, 80, 17, 0.95);
+  z-index: 1;
+  position: relative;
+}
+
+#photos img {
+  width: 350px;
+  height: 250px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 122, 27, 0.97);
+}
+
+#btnPlay, #btnPause {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff0e72db;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  width: 90px;
+}
+
+#rngVolume {
+  width: 50px;
+}
+
